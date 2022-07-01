@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getstatus",
+				"outputs": [
+					{
+						"internalType": "enum Enum.Order",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reset",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ret",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum Enum.Order",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "setstatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"enum.sol": "Enum"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"enum.sol": {
+			"keccak256": "0xd71938095d86d54591ad1bcb019c58feaf6fc0bff9225e59225792d4602f44e9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b9f475aa60a1fd315b449b9abea29450d02fe573ffef14969e7fca6e4b7e3f07",
+				"dweb:/ipfs/QmfWuRApZARRUVag47Xf52quVevpFcEpwPQeevdAph1ueS"
+			]
+		}
+	},
+	"version": 1
+}

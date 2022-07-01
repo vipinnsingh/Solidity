@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"covid19coldchain.sol": "cryptosuite"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"covid19coldchain.sol": {
+			"keccak256": "0x178edb2cdff1b456b3e653917813e23d877ba5d5ba532de46b540b5fa7d50824",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://af5536fee1b626fadb3939f19b060a63467a35089eac338da12b42414d4cfd9e",
+				"dweb:/ipfs/QmVW6ZdYawyyriPHS4VQsfautf42P89rzEJePSKYqLdbbr"
+			]
+		}
+	},
+	"version": 1
+}

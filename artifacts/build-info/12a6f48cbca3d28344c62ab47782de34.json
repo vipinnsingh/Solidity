@@ -1,0 +1,71 @@
+{
+	"id": "12a6f48cbca3d28344c62ab47782de34",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.7.6",
+	"solcLongVersion": "0.7.6+commit.7338295f",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contractbalance.sol": {
+				"content": "// SPDX-License-Identifier: GPL-3.0"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "contractbalance.sol: Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.7.6;\"\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.7.6;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "contractbalance.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"contractbalance.sol": {
+				"ast": {
+					"absolutePath": "contractbalance.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"license": "GPL-3.0",
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "35:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

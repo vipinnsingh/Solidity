@@ -1,0 +1,71 @@
+{
+	"id": "5fd1915de0c08369713be5cd81881bf6",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.7.6",
+	"solcLongVersion": "0.7.6+commit.7338295f",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"boolean.sol": {
+				"content": "// SPDX-License-Identifier: GPL-3.0"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "boolean.sol: Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.7.6;\"\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.7.6;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "boolean.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"boolean.sol": {
+				"ast": {
+					"absolutePath": "boolean.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"license": "GPL-3.0",
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "35:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

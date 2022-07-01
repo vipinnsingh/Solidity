@@ -1,0 +1,71 @@
+{
+	"id": "be560a7862a71e142d11d98209b0ffec",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.7.6",
+	"solcLongVersion": "0.7.6+commit.7338295f",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"VendingMachine.sol": {
+				"content": "// SPDX-License-Identifier: GPL-3.0\r\n\r\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "VendingMachine.sol: Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.7.6;\"\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.7.6;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "VendingMachine.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"VendingMachine.sol": {
+				"ast": {
+					"absolutePath": "VendingMachine.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"license": "GPL-3.0",
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "39:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
